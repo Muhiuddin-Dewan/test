@@ -1,0 +1,66 @@
+body{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+}   
+
+ul,li,ol{
+    list-style:none;   
+}
+img{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+/* menubar */
+.navbar{
+    width: 100%;
+    background: rgb(230, 230, 230) !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: unset !important;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 20px !important;
+}
+
+.navbar-nav .nav-item a:hover{
+    background: rgb(241, 237, 237) !important;
+}
+
+/* banner */
+
+#banner{
+    width:100%;
+	height:220px;
+}		 
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Why */
+.why{
+    padding: 15px 0px;
+}
+
+h2{
+    text-align: center;
+    margin: 15px;
+    color: rgb(196, 0, 0);
+}
+
+/* Login Page */
+.loginPage{
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid grey;
+    padding: 40px;
+}
